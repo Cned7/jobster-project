@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>all-jobs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all-jobs.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="jobster_left">
+        <div class="jobster_logo">
+          <img
+            src="https://redux-toolkit-jobster.netlify.app/static/media/logo.35bb8e1d9b5745af32ff148cbee51dfa.svg"
+            alt="jobster logo"
+          />
+        </div>
+
+        <div class="side_navlink">
+          <nav>
+            <a class="stats" href="stat.html"
+              ><i class="bi bi-bar-chart-line-fill"></i>Stats</a
+            >
+            <a class="all_jobs" href="all-jobs.html"
+              ><i class="bi bi-search"></i>All Jobs</a
+            >
+            <a class="add_jobs" href="index.html"
+              ><i class="bi bi-file-earmark-plus"></i>Add Jobs</a
+            >
+            <a class="profile" href="profile.html"
+              ><i class="bi bi-person-lines-fill"></i>Profile</a
+            >
+          </nav>
+        </div>
+      </div>
+
+      <div class="jobster_right">
+        <div class="top_navbar">
+          <div class="togglelogo_sidenav">
+            <span class="graph_toggle"><i class="bi bi-text-left"></i></span>
+          </div>
+
+          <div class="dashboard">
+            <h1>Dashboard</h1>
+            <img
+              src="https://redux-toolkit-jobster.netlify.app/static/media/logo.35bb8e1d9b5745af32ff148cbee51dfa.svg"
+              alt=""
+              class="apear"
+            />
+          </div>
+          <div class="profile_btn">
+            <button class="profile_button">
+              <i class="bi bi-person-circle"></i>your name
+            </button>
+          </div>
+        </div>
+
+        <div class="container_div">
+          <main class="filter--form">
+            <div>
+              <h1 class="addJob">Search Form</h1>
+            </div>
+            <div class="allinput_box">
+              <div class="input1_box">
+                <div class="labelText">
+                  <div>Search</div>
+                  <div>
+                    <input type="text" name="position" id="position" />
+                  </div>
+                </div>
+
+                <div class="labelText">
+                  <div>Sort</div>
+                  <div>
+                    <select name="status" id="status">
+                      <option value="interview">latest</option>
+                      <option value="declined">oldest</option>
+                      <option value="pending">a-z</option>
+                      <option value="pending">z-a</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="input2_box">
+                <div class="labelText">
+                  <div>Status</div>
+                  <div>
+                    <select name="status" id="status">
+                      <option value="interview">all</option>
+                      <option value="declined">interview</option>
+                      <option value="pending">declined</option>
+                      <option value="pending">pending</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="clearBox">
+                  <button class="clearFilters">Clear Filters</button>
+                </div>
+              </div>
+
+              <div class="input3_box">
+                <div class="labelText">
+                  <div>Type</div>
+                  <div>
+                    <select name="status" id="status">
+                      <option value="interview">all</option>
+                      <option value="declined">full-time</option>
+                      <option value="pending">part-time</option>
+                      <option value="pending">remote</option>
+                      <option value="pending">internship</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <script src="/Jobster-Project/Group Project/all-jobs.js"></script>
+  </body>
+</html>

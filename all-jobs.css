@@ -1,0 +1,39 @@
+.clearBox {
+  margin-top: 1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clearFilters {
+  width: 100%;
+  padding: 0.7em;
+  text-align: center;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #f8d7da;
+  font-size: clamp(0.6rem, 1rem, 2vw);
+  color: #842029;
+  cursor: pointer;
+}
+@media (max-width: 999px) {
+  .container_div {
+    position: relative;
+    min-width: 250px;
+  }
+  .clearBox {
+    position: absolute;
+    bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-width: 100%;
+    padding-right: 4em;
+  }
+
+  .clearFilters {
+    width: 100%;
+    max-height: 90%;
+    padding-inline: 1em;
+    box-sizing: border-box;
+  }
+}
